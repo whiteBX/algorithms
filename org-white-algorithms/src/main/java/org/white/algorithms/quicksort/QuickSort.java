@@ -10,6 +10,12 @@ import java.util.Arrays;
  */
 public class QuickSort {
 
+    public static void main(String[] args) {
+        int[] array = {5, 3, 7, 4, 3, 2, 2, 11, 9, 32, 13};
+        sort(array, 0, array.length - 1);
+        Arrays.stream(array).forEach(s -> System.out.print(s + " "));
+    }
+
     /**
      * 单次区间排序
      */
@@ -41,11 +47,5 @@ public class QuickSort {
             sort(array, begin, position - 1);
             sort(array, position + 1, end);
         }
-    }
-
-    public static void main(String[] args) {
-        int[] array = { 5, 3, 7, 4, 3, 2, 2, 11, 9, 32, 13 };
-        sort(array, 0, array.length - 1);
-        Arrays.stream(array).forEach(s -> System.out.print(s + " "));
     }
 }
