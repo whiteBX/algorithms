@@ -77,11 +77,11 @@ public class HeapSort {
     /**
      * 取堆的最后一个父节点
      *
-     * @param arryLength 数组长度
+     * @param arrayLength 数组长度
      * @return 返回树的最后一个父节点坐标
      */
-    private int getLastParentIndex(int arryLength) {
-        return (arryLength >> 1) - 1;
+    private int getLastParentIndex(int arrayLength) {
+        return (arrayLength >> 1) - 1;
     }
 
     /**
