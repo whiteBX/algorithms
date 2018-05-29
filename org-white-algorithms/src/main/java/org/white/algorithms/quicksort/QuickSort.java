@@ -3,7 +3,7 @@ package org.white.algorithms.quicksort;
 import java.util.Arrays;
 
 /**
- * <p> </p >
+ * <p> 快速排序</p >
  *
  * @author white
  * @version $Id: QuickSort.java, v 0.1 2018年05月29日 上午21:15:00 white Exp$
